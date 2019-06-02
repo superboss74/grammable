@@ -61,6 +61,19 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
+# Adding Rspec to my Development and Test environments
+# This should be ignored by Heroku in Production.
 group :development, :test do
   gem 'rspec-rails', '~> 3.5'
+end
+
+# Adding the latest version of Jquery and the Jquery-ujs Driver
+gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
+
+# Adding Bootstrap 4 and it's dependencies
+gem 'popper_js', '~> 1.14.5'
+gem 'bootstrap', '~> 4.3', '>= 4.3.1'
+
+source 'https://rails-assets.org' do
+  gem 'rails-assets-tether', '>= 1.3.3'
 end
