@@ -88,3 +88,12 @@ gem 'simple_form'
 
 # Adding Devise
 gem 'devise'
+
+# Adding CarrierWave
+gem 'carrierwave', '~> 1.0'
+
+# that keeps configuration out of Git.
+gem 'figaro'
+
+# Configuring carrierwave to use AWS
+gem 'fog-aws'
