@@ -90,7 +90,7 @@ gem 'simple_form'
 gem 'devise'
 
 # Adding CarrierWave
-gem 'carrierwave', '~> 1.0'
+gem 'carrierwave', '~> 1.3'
 
 # that keeps configuration out of Git.
 gem 'figaro'
